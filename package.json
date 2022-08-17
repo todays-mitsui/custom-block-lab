@@ -1,0 +1,19 @@
+{
+  "name": "custom-block-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todays-mitsui/custom-block-lab.git"
+  },
+  "author": "Mitsui <todays.mitsui@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todays-mitsui/custom-block-lab/issues"
+  },
+  "homepage": "https://github.com/todays-mitsui/custom-block-lab#readme"
+}
