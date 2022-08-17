@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-block-lab/sample",
+  "title": "Sample",
+  "category": "text",
+  "icon": "pets",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "html",
+      "selector": ".message"
+    }
+  },
+  "supports": {},
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

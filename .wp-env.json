@@ -1,11 +1,9 @@
 {
-    "themes": [
-    ],
-    "plugins": [
-    ],
-    "config": {
-      "WP_DEBUG": true,
-      "WP_DEBUG_LOG": true,
-      "WP_POST_REVISIONS": false
-    }
-  }
+	"themes": [],
+	"plugins": [ "./plugins/custom-block-lab" ],
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_LOG": true,
+		"WP_POST_REVISIONS": false
+	}
+}
