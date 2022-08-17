@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "custom-block-lab/audiovisual",
+	"title": "画像/動画",
+	"description": "カスタムブロックの中で core/image と core/embed を切り替えるデモ",
+	"category": "text",
+	"icon": "pets",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"enum": [ "image", "embed" ],
+			"default": "image"
+		},
+		"imageAttributes": {
+			"type": "object",
+			"default": {}
+		},
+		"embedAttributes": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"supports": {},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
