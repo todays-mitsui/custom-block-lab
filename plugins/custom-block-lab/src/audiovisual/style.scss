@@ -1,0 +1,15 @@
+.wp-block-custom-block-lab-audiovisual {
+	padding: 32px;
+	background-color: #ccc;
+
+	.components-radio-control .components-base-control__field {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+	}
+
+	.block-editor-inner-blocks {
+		margin-top: 16px;
+	}
+}

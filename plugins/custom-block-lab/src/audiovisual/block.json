@@ -12,13 +12,23 @@
 			"enum": [ "image", "embed" ],
 			"default": "image"
 		},
-		"imageAttributes": {
+		"imageBlock": {
 			"type": "object",
-			"default": {}
+			"default": {
+				"name": "core/image",
+				"attributes": {
+					"url": "https://picsum.photos/id/327/1200/800"
+				}
+			}
 		},
-		"embedAttributes": {
+		"embedBlock": {
 			"type": "object",
-			"default": {}
+			"default": {
+				"name": "core/embed",
+				"attributes": {
+					"url": "https://youtu.be/jNQXAC9IVRw"
+				}
+			}
 		}
 	},
 	"supports": {},
